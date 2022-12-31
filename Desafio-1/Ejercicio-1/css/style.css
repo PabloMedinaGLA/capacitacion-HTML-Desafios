@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap%27');
+
+body{
+    background-color: #edf7ff;
+    border-top: 20px solid #8a9af1;
+    margin: 0;
+    
+    
+}
+
+main{
+    width: 900px;
+    margin-left:10%;
+}
+
+h1 {
+    font-family: 'MuseoModerno';
+    font-size: 117.33px;
+    color: #0a2ff1;
+    
+}
+
+h2 {
+    font-family: 'Asap';
+    font-size: 52px;
+    color: #0a2ff1;
+    margin: 0;
+}
+
+main > p {
+    font-family: 'Asap';
+    font-size: 33.33px;
+    color: #04146c;
+}
+
+article > h3 {
+    font-family: 'MuseoModerno';
+    font-size: 48px;
+    font-weight: bold;
+    color: #0a2ff1;
+}
+
+article > ul > li {
+    font-family: 'Asap';
+    font-size: 33.33px;
+    color: #04146c;
+}
+
+footer > p {
+    font-family: 'MuseoModerno';
+    font-size: 198.66px;
+    color: #8a9af1;
+    margin: 0;
+}

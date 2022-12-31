@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    height: 90vh;
+}
+
+main > img {
+    width: 50%;
+    height: 800px;
+    margin-bottom: -55px; /* El margin negativo es mala practica. la imagen tiene un espacio abajo */
+    align-self:flex-end
+
+}
+
+section {
+    margin: auto;
+    width: 37vw;
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: 45.33px;
+    font-weight: 700;
+    color: #0a2ff1;
+    margin-bottom: 30px;
+}
+
+h2,p {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #04146c;
+}
+
+p {
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/* footer */
+
+footer {
+    background-color: #3957f1;
+    position: absolute;
+    padding: 20px 20px 20px 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer > img {
+    width: 15%;
+}

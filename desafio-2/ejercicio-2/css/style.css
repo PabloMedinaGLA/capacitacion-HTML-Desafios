@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #0a2ff1;
+    text-align: center;
+}
+
+p > strong{
+    font-weight: 700;
+}
+
+div {
+    width: max-content;
+    margin: auto;
+    align-items: center;
+}
+
+img {
+
+    width:100px; vertical-align: middle;
+    margin-left: 30px;
+}
